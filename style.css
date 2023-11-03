@@ -1,0 +1,36 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #708090;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+svg {
+  background-color: white;
+  box-shadow: 0 0 15px 5px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+#title {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0 auto;
+}
+
+.bar:hover {
+  fill: white;
+}
+#tooltip {
+  background-color: white;
+  box-shadow: 0 0 15px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justifycuntent: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+  opacity: 0.8
+}
